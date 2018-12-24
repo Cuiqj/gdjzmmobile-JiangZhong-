@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3A054CC163405F14BBC10FCBF48DF507671882DA+++EB9958B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CC9E6813401FC20BF860D9A1BE28999344063381+++BB84E4C" : 0,
+    "3A054CC163405F14BBC10FCBF48DF507671882DA+++EB9958B" : 0,
+    "CC9E6813401FC20BF860D9A1BE28999344063381+++75383BB" : 0,
+    "3A054CC163405F14BBC10FCBF48DF507671882DA+++7B8CA14" : 0,
+    "3A054CC163405F14BBC10FCBF48DF507671882DA+++F6F924D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "852B1554-1774-48AF-9E95-13278DB3B399",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CC9E6813401FC20BF860D9A1BE28999344063381+++BB84E4C" : "",
+    "3A054CC163405F14BBC10FCBF48DF507671882DA+++EB9958B" : "gdjzmmobile(tongbu)",
+    "CC9E6813401FC20BF860D9A1BE28999344063381+++75383BB" : "..\/..\/..\/..\/..\/..\/..\/..\/..",
+    "3A054CC163405F14BBC10FCBF48DF507671882DA+++7B8CA14" : "gdjzmmobile",
+    "3A054CC163405F14BBC10FCBF48DF507671882DA+++F6F924D" : "gdjzmmobile"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GDJZMMobile",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GDJZMMobile.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.edaoyou.com\/edaoyou",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3A054CC163405F14BBC10FCBF48DF507671882DA+++7B8CA14"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.edaoyou.com\/edaoyou",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3A054CC163405F14BBC10FCBF48DF507671882DA+++EB9958B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.edaoyou.com\/edaoyou",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3A054CC163405F14BBC10FCBF48DF507671882DA+++F6F924D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.0.243\/guizhouluzheng.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CC9E6813401FC20BF860D9A1BE28999344063381+++75383BB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.0.243\/guizhouluzheng.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CC9E6813401FC20BF860D9A1BE28999344063381+++BB84E4C"
+    }
+  ]
+}
