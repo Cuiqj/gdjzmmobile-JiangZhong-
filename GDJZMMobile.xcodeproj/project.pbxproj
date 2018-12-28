@@ -287,6 +287,7 @@
 		834721C3190A493D007B5D27 /* CaseBreakLawNotice.m in Sources */ = {isa = PBXBuildFile; fileRef = 834721C2190A493C007B5D27 /* CaseBreakLawNotice.m */; };
 		834FD0E1190F85E500BAAF2C /* CaseMapFa.m in Sources */ = {isa = PBXBuildFile; fileRef = 834FD0E0190F85E500BAAF2C /* CaseMapFa.m */; };
 		83A93D86190E6FD000F8A1F7 /* CaseFaMapPrintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A93D85190E6FD000F8A1F7 /* CaseFaMapPrintViewController.m */; };
+		84E9049121D46FB600C6EFAF /* LCNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E9049021D46FB600C6EFAF /* LCNetworking.m */; };
 		9B75C699180E984400F74262 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B75C694180E981C00F74262 /* MainStoryboard.storyboard */; };
 		BD53A69D188775040002F151 /* ManualInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD53A69C188775040002F151 /* ManualInputViewController.m */; };
 		C0923C481839BEE100D2795E /* TBXML+TBXML_TraverseAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C0923C461839BEE100D2795E /* TBXML+TBXML_TraverseAddition.m */; };
@@ -749,6 +750,8 @@
 		834FD0E0190F85E500BAAF2C /* CaseMapFa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseMapFa.m; sourceTree = "<group>"; };
 		83A93D84190E6FD000F8A1F7 /* CaseFaMapPrintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseFaMapPrintViewController.h; sourceTree = "<group>"; };
 		83A93D85190E6FD000F8A1F7 /* CaseFaMapPrintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseFaMapPrintViewController.m; sourceTree = "<group>"; };
+		84E9048F21D46FB500C6EFAF /* LCNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCNetworking.h; sourceTree = "<group>"; };
+		84E9049021D46FB600C6EFAF /* LCNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCNetworking.m; sourceTree = "<group>"; };
 		9B180DC517D6D0FC00A9A082 /* GRMustache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRMustache.h; sourceTree = "<group>"; };
 		9B180DC617D6D0FC00A9A082 /* GRMustacheAvailabilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRMustacheAvailabilityMacros.h; sourceTree = "<group>"; };
 		9B180DC717D6D0FC00A9A082 /* GRMustacheConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRMustacheConfiguration.h; sourceTree = "<group>"; };
@@ -1322,6 +1325,8 @@
 				33A5276714F4E5BD009BC91E /* Views Controller */,
 				33A5275914F4E3E6009BC91E /* AppDelegate.h */,
 				33A5275A14F4E3E6009BC91E /* AppDelegate.m */,
+				84E9048F21D46FB500C6EFAF /* LCNetworking.h */,
+				84E9049021D46FB600C6EFAF /* LCNetworking.m */,
 				33A6B15B16523D7400E6DF90 /* AGAlertViewWithProgressbar.h */,
 				33A6B15C16523D7400E6DF90 /* AGAlertViewWithProgressbar.m */,
 				3365B34C169AAF8200E9D039 /* NSAttributedString+DrawMethod.h */,
@@ -2109,6 +2114,7 @@
 				80D9586A18086889009D3937 /* UserPickerViewController.m in Sources */,
 				80D9586B18086889009D3937 /* InitData.m in Sources */,
 				80D9586C18086889009D3937 /* DataDownLoad.m in Sources */,
+				84E9049121D46FB600C6EFAF /* LCNetworking.m in Sources */,
 				80D9586D18086889009D3937 /* AGAlertViewWithProgressbar.m in Sources */,
 				80D9586E18086889009D3937 /* CityCode.m in Sources */,
 				80D9586F18086889009D3937 /* RoadSegment.m in Sources */,
@@ -2313,7 +2319,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = AllProjectCanUsedevelopment;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				TARGETED_DEVICE_FAMILY = 2;
-				VALID_ARCHS = "arm64 armv7";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2346,7 +2352,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = AllProjectCanUsedevelopment;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				TARGETED_DEVICE_FAMILY = 2;
-				VALID_ARCHS = "arm64 armv7";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
